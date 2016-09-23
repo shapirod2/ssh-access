@@ -9,6 +9,6 @@ EOF
 chmod 0440 /etc/sudoers.d/dshapiro-ALL
 mkdir ~dshapiro/.ssh
 chmod 700 ~dshapiro/.ssh
-curl https://raw.githubusercontent.com/shapirod2/ssh_access/master/shapirod2_rsa.pub >~dshapiro/.ssh/authorized_keys
+curl https://raw.githubusercontent.com/shapirod2/ssh-access/master/shapirod2_rsa.pub >~dshapiro/.ssh/authorized_keys
 chmod 400 ~dshapiro/.ssh/authorized_keys
 chown -R dshapiro ~dshapiro/.ssh
